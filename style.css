@@ -1,0 +1,69 @@
+.gradient-background {
+  background: linear-gradient(300deg, #265073, #2D9596, #9AD0C2, #F1FADA);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 50% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 25%;
+  }
+}
+
+.titre{
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lead{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:2rem;
+}
+.liste{
+  list-style-type :none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  justify-content: center !important;
+}
+.justify-content-center{
+  justify-content: left !important;
+}
+
+#Objective{
+  background-color: #9ad0c2;
+}
+#Experiences{
+  background-color: #9AD0C2;
+}
+#Projects{
+  background-color: #9AD0C2;
+} 
+#Educations {
+  background-color: #9AD0C2;
+}
+#Hobbies{
+  background-color: #9AD0C2;
+} 
+#Contactme{
+  background-color: #9AD0C2;
+} 
+.list-group-item {
+  
+  background-color: transparent;
+}
